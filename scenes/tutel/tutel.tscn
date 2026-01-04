@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0c2fbu6byhww"]
+
+[ext_resource type="PackedScene" uid="uid://belt0fkwwpchg" path="res://scenes/tutel/tutel.blend" id="1_h21wi"]
+[ext_resource type="Script" uid="uid://04kau7ea3j3f" path="res://scenes/tutel/tutel.gd" id="2_xeknp"]
+
+[node name="Tutel" instance=ExtResource("1_h21wi")]
+script = ExtResource("2_xeknp")
