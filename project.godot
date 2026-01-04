@@ -13,7 +13,7 @@ config_version=5
 config/name="tutels-six-plus"
 run/main_scene="uid://v1krwm71nq6k"
 config/features=PackedStringArray("4.5", "Mobile")
-config/icon="res://icon.svg"
+config/icon="res://icon.webp"
 
 [rendering]
 
