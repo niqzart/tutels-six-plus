@@ -1,0 +1,6 @@
+.godot/
+/addons/
+/android/
+/export/
+*.translation
+*.blend1
