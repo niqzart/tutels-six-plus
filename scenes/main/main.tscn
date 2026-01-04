@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://v1krwm71nq6k"]
+
+[ext_resource type="PackedScene" uid="uid://belt0fkwwpchg" path="res://scenes/tutel/tutel.blend" id="1_hyk8p"]
+
+[node name="Main" type="Node3D"]
+
+[node name="TheSun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0)
+shadow_enabled = true
+
+[node name="CameraPivot" type="Node3D" parent="."]
+transform = Transform3D(-0.70710677, 0.61237246, -0.35355335, 0, 0.49999997, 0.86602545, 0.70710677, 0.61237246, -0.35355335, -5, 10, -5)
+
+[node name="Camera3D" type="Camera3D" parent="CameraPivot"]
+
+[node name="Tutel" parent="." instance=ExtResource("1_hyk8p")]
+transform = Transform3D(1, 0, 3.7252903e-08, 0, 1, 0, 3.7252903e-08, 0, 1, 0, -9.536743e-07, 0)
+
+[editable path="Tutel"]
